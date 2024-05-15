@@ -1,0 +1,211 @@
+; Turkce dil dosyasi
+; Author: Sedat Kapanoglu / 30th Aug 95
+
+; id -1 describes the language
+
+-1, Turkce  (US karakter seti)
+
+; button messages start at 1
+
+;--- MESSAGEBOX BUTTONS ---
+1, ~Evet
+2, ~Hayir
+3, ~Tamam
+4, ~Bosver
+5, Tekrar ~dene
+
+; other messages start at 100
+
+;--- DEFAULT SETUP ---
+100, Re:
+101, ' -] Ormanda @F mail yazdi mi yer sarsilir derler [-'
+
+;--- PASSWORD SCREEN ---
+102, Giris
+103, 'Kullanici'
+104, 'Sifre    '
+
+;---- GENERAL SETUP ----
+105, Kullanici bilgileri
+106, 'Kullanici adi'
+107, 'Giris sifresi'
+108, 'Tam adi      '
+111, setup dosyasi yaratilamadi
+112, inceleniyor...
+113, Sifreniz yanlis
+114, Yeni kullanici
+115, ~Kaydet [Enter]
+116, ~Ayarlar
+
+;----- DIR SETUP ---
+118, 'Download rehberi '
+119, 'Upload rehberi   '
+120, 'Editor komutu    '
+121, 'Filtreleme komutu'
+122, 'Tagline dosyasi  '
+123, 'Baslik dosyasi   '
+124, 'Bitis dosyasi    '
+
+;--- ADD NEW USER ---
+200, Bir saniye...
+201, Eksik bilgi
+202, Bir kullanici adiniz olmak zorunda. Lutfen bu alani doldurun.
+203, Siyam ikizleri
+204, Ayni isimde baska kullanici var. Lutfen degistirin.
+205, Olmaz ki
+206, Kullanici adinizi degistiremezsiniz. Eger bu cok onemliyse kullanicinizi silip tekrar yaratmalisiniz.
+257, Adiniz
+258, Kisa kullanici adiniz
+259, Programa giriste kullanacaginiz sifre
+260, Kontrol icin sifrenizi tekrar giriniz
+261, I-Ih
+262, Sifreniz tutmadi. Unutmayin ikisini de ayni girmeniz sart.
+
+;--- SETUP ERROR ---
+207, Setup dosyasinda bir hata var. Baska bir kullaniciyla tekrar girmeyi deneyin.
+
+;--- ADD NEW USER (continued) ---
+208, ^CTurboSurfer'a hosgeldiniz^M^CSimdi kullanici ayarlarinizi yapacaksiniz
+
+;--- SETUP AGAIN ---
+209, NIaaaa
+210, Setup dosyasini acamiyorum. :~(
+211, Sizin kaydinizi bulamadim. Basimiza tas yagacak
+
+;--- INIT STATUS ---
+300, 'Kullanici: '
+
+;--- MAIN MENU ---
+400, '~Gelen paketler            '
+401, '~Cevap pakedi              '
+402, 'Sistem ~ayarlari           '
+403, 'TurboSurfer'dan ci~kis     '
+
+;--- PACKETS ---
+500, Ehem
+501, Download rehberi bulunamadi. Lutfen ayarlarinizi gozden gecirin.
+502, Paket listesi
+
+503, Dosya
+504, Uzunlugu
+505, Tarih
+506, Saat
+507, Mesaj
+508, Ozel
+509, Imli
+510, Okunmayan
+
+511, Ac [Enter]
+512, Sil [Delete]
+513, ~Arsivle
+514, ~Cevap pakedi
+515, ~Geri don [Esc]
+
+;--- VALIDATE QUIT ---
+600, Alo?
+601, TurboSurfer'dan cikmak istediginizden emin misiniz?
+
+;--- ARCHIVE SETUP ---
+700, Arsiv programlari
+701, '~Ekle    '
+702, '~Degistir'
+703, '~Sil     '
+704, '~Tamam   '
+
+;--- SETUP MENU ---
+800, Kullanici ayarlarini degistir
+802, Arsiv programlari
+
+803, 'Arsiv format adi '
+804, 'Compress komutu  '
+805, 'DeCompress komutu'
+806, 'Isareti          '
+807, Program ciktisini ~g~izle
+808, ~T~urbo calistirma modu
+809, Cikis seviyesi kontrolu ~y~apma
+
+810, Ekle
+811, Degistir
+812, Dikkat
+813, SIkIstIrma programi ile ilgili bilgiyi silmek istediginizden emin misiniz?
+814, I-Ih
+815, Program ile ilgili tum bilgileri doldurmaniz gerekiyor.
+
+;--- OPEN PACKET ---
+900, Hay bin kunduz
+901, Paket dosyasi acilamadi. Baska bir program tarafindan kullaniliyor olabilir.
+902, Acmak istediginiz bir paket dosyasi degil. Sizi kandiriyollar.
+903, Malesef
+904, Hic bir arsiv programi tanimli olmadigindan bu pakedin acilmasi mumkun degil.
+905, Pakedi acmanin yolunu bi turlu bulamadim. Bilinen hic bir yasam formuna benzemiyor.
+906, Pakedi aciyorum...
+907, Paket acilamadi
+908, Acayip bir sebepten mesaj pakedinizi acamiyorum. Kusura bakmayin.
+909, Pakedi acmak icin gerekli decompress programini bulamadim. Ayarlara bir goz atin.
+910, Pakedi kontrol ediyorum...
+911, Eksik paket
+912, Mesaj pakedinizde gerekli dosyalarin bazilari yok. Bu durumda bu pakedi acamazsiniz.
+913, Pakedinizi guncelliyorum...
+914, Mesaj pakedinizde bir sorun var. Lutfen yenisini download ediniz.
+
+;--- DOS SHELL ---
+1000, TurboSurfer'a geri donmek icin EXIT yaziniz...
+
+;--- DELETE PACKET ---
+1100, Dikkat
+1101, Isaretlediginiz paketleri silmek istediginizden emin misiniz?
+1102, Siliyorum...
+1103, Pakedi silmek istediginizden emin misiniz?
+
+;--- GENERIC ERRORS ---
+1200, Hata
+1201, %s isimli dosyanin acilmasinda hata olustu.
+
+;--- USER MUZIR ETC ---
+1300, Kullanici listesi
+1301, '~Ekle    '
+1302, '~Cikar   '
+1303, '~Bu kadar'
+1304, Dikkat
+1305, Kullanici ile ilgili tum bilgiler silinecektir. Bu kullaniciyi silmek istediginizden emin misiniz?
+
+;--- AREA DIALOG KIL TUY ---
+1400, Alan listesi
+1401, ~Ac
+1402, ~Cevaplar
+1403, ~Yeni dosyalar
+1404, ~Arastir
+1405, ~Geri don
+
+;--- MAIL LIST DIALOG ---
+1500, Mesaj listesi
+1501, Gonderen
+1502, Alici
+1503, Konu
+1504, ~Oku
+1505, ~Arsivle
+1506, ~Kaydet
+1507, ~Yazdir
+1508, ~Geri don
+
+;--- MAIL READER SCREEN ---
+1600, 'Cevapla'
+1601, 'Arsivle'
+1602, 'Kaydet '
+1603, 'Yazdir '
+1604, 'Kopyala'
+1605, 'Sonraki'
+1606, 'Onceki '
+1607, 'Cikis  '
+
+;--- DETAILED SETUP SCREEN ---
+1700, 'Kullanici ayarlari'
+1701, Ekran modu
+1702, 25 satir
+1703, 43/50 satir
+
+;--- AREA LIST LABELZ ---
+1800, Alan adi
+1801, Toplam
+1802, Kisisel
+1803, Okunmayan
